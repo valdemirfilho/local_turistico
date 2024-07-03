@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+
+  --h1: 2.25rem; /* 36px */
+  --h2: 2rem; /* 32px */
+  --h3: 1.75rem; /* 28px */
+  --headline: 1rem; /* 16px */
+  --paragraph: 1rem; /* 16px */
+  --subtitle: 1rem; /* 16px */
+}
+
+body {
+  background-color: var(--background-default);
+  font-family: 'Open Sans';
+  color: var(--text-primary);
+}
+
+main {
+  max-width: 1120px;
+  margin: auto;
+  padding: 48px 80px;
+}
+
+img {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.hero-image {
+  border-radius: 28px;
+  max-height: 660px;
+  object-fit: cover;
+}
+
+.section-image {
+  border-radius: 28px;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+.hr {
+  background-color: var(--border-primary);
+  height: 1px;
+  margin-block-end: 44px;
+}
+
+.text-headline {
+  color: var(--text-headline);
+  font-size: var(--headline);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-block-end: 8px;
+}
+
+.title {
+  font-size: var(--h1);
+  padding-block-end: 44px;
+}
+
+.caption {
+  color: var(--text-secondary);
+  font-size: var(--subtitle);
+  font-style: italic;
+  text-align: center;
+  padding-block: 24px 40px;
+}
+
+.section-title {
+  color: var(--text-secondary);
+  font-size: var(--h2);
+  padding-block-end: 8px;
+}
+
+.section-text {
+  color: var(--text-secondary);
+  font-size: var(--paragraph);
+  padding-block-end: 64px;
+}
+
+.tourist-spot-title {
+  color: var(--text-primary);
+  font-size: var(--h3);
+  padding-block: 20px 8px;
+}
+
+.tourist-spot-text {
+  color: var(--text-secondary);
+  font-size: var(--paragraph);
+  font-weight: 400;
+}
+
+.center-text {
+  display: inline-block;
+  text-align: center;
+}
+
+ul {
+  font-size: var(--paragraph);
+  font-weight: 700;
+  padding-block: 36px 48px;
+  list-style-position: inside;
+}
+
+.accent-blue {
+  color: var(--accent-blue);
+}
+
+.accent-orange {
+  color: var(--accent-orange);
+}
+
+.accent-pink {
+  color: var(--accent-pink);
+}
+
+.accent-purple {
+  color: var(--accent-purple);
+}
+
+footer {
+  padding-block-start: 64px;
+  text-align: center;
+  font-family: serif;
+}
+
+
+@media (width <= 600px) {
+  main {
+    padding: 16px;
+  }
+}
