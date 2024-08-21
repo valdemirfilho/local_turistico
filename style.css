@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  min-width: 1280px;
+  max-width: 1280px;
   margin: auto;
   padding: 48px 80px;
 }
