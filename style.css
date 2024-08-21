@@ -111,10 +111,18 @@ img {
   text-align: center;
 }
 
+.wrapper-list {
+  padding-block: 36px 48px;
+
+  span {
+    font-weight: 700;
+  }
+}
+
 ul {
+  margin-top: 8px;
   font-size: var(--paragraph);
   font-weight: 700;
-  padding-block: 36px 48px;
   list-style-position: inside;
 }
 
