@@ -28,12 +28,12 @@
 
 body {
   background-color: var(--background-default);
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   color: var(--text-primary);
 }
 
 main {
-  max-width: 1280px;
+  min-width: 1280px;
   margin: auto;
   padding: 48px 80px;
 }
@@ -139,7 +139,6 @@ footer {
   text-align: center;
   font-family: serif;
 }
-
 
 @media (width <= 600px) {
   main {
