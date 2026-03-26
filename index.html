@@ -19,16 +19,21 @@
       <h1 class="title">Conheça Busan</h1>
       <figure>
         <picture>
-          <source type="image/avif" srcset="assets/images/image_01-400w.avif 400w, 
-          assets/images/image_01-600w.avif 600w, 
-          assets/images/image_01-800w.avif 800w, 
-          assets/images/image_01-1000w.avif 1000w, 
-          assets/images/image_01-1200w.avif 1200w" sizes="(min-width: 480px) 400px,
-          (min-width: 700px) 600px,
-          (min-width: 900px) 800px,
+          <source type="image/avif" 
+          srcset="
+            assets/images/image_01-400w.avif 400w, 
+            assets/images/image_01-600w.avif 600w, 
+            assets/images/image_01-800w.avif 800w, 
+            assets/images/image_01-1000w.avif 1000w, 
+            assets/images/image_01-1200w.avif 1200w" 
+          sizes="
+          (min-width: 1200px) 1200px,
           (min-width: 1000px) 1000px,
-          (min-width: 1200px) 1200px">
-          <img class="hero-image" src="assets/images/image_01.jpeg" alt="Imagem de Busan">
+          (min-width: 900px) 800px,
+          (min-width: 700px) 600px,
+          (min-width: 480px) 400px,
+          100vw">
+          <img class="hero-image" src="assets/images/image_01.jpeg" alt="Vista de Busan" fetchpriority="high">
         </picture>
 
         <figcaption class="caption">
